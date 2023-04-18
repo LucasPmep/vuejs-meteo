@@ -13,8 +13,8 @@ const router = createRouter({
     {
       path: '/weather/:state/:city',
       name: 'cityView',
-      component: CityView
-    }
+      component: CityView,
+    },
   ]
 })
 
