@@ -50,6 +50,7 @@ const addCity = () => {
 
     let query = Object.assign({}, route.query);
     delete query.preview;
+    query.id = localObj.id;
     router.replace({ query });
 };
 
